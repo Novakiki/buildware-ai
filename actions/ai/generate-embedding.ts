@@ -4,7 +4,7 @@ import {
   BUILDWARE_EMBEDDING_DIMENSIONS,
   BUILDWARE_EMBEDDING_MODEL
 } from "@/lib/constants/buildware-config"
-import OpenAI from "openai"
+import OpenAI from "openai/index.mjs"
 
 const openai = new OpenAI()
 

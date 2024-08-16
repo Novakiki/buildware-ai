@@ -7,7 +7,7 @@ import {
 } from "@/lib/constants/buildware-config"
 import { GitHubFileContent } from "@/types/github"
 import { encode } from "gpt-tokenizer"
-import OpenAI from "openai"
+import OpenAI from "openai/index.mjs"
 
 const openai = new OpenAI()
 
